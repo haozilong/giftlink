@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <title>ß</title>
+    <script type="text/javascript">
+        (function () {
+            var oHtml = document.getElementsByTagName('html')[0],
+                    clientWidth = document.documentElement.clientWidth || document.body.clientWidth,
+                    clientHeight = document.documentElement.clientHeight || document.body.clientHeight;
+            oHtml.style.fontSize = clientWidth / 3.75 + "px";
+            window.addEventListener("resize", function () {
+                var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+                oHtml.style.fontSize = clientWidth / 3.75 + "px";
+                document.getElementsByTagName('body')[0].style.height = clientHeight + 'px';
+            });
+            window.addEventListener('DOMContentLoaded', function () {
+                document.getElementsByTagName('body')[0].style.height = clientHeight + 'px';
+            })
+        })();
+    </script>
+    <link href="../css/introduction.css?v=1.0" rel="stylesheet" />
+
+</head>
+<body>
+    <header>
+        <div class="head-left">左</div>
+        <div class="head-top">
+            一二三四五六七八
+        </div>
+    </header>
+    <main>
+        <div class="main-box">
+            
+        </div>
+        <div class="bottom">
+            <a class="bottom-a bottom-left">
+                左边
+            </a>
+            <a class="bottom-a bottom-right">
+                右边
+            </a>
+        </div>
+    </main>
+    <script type="text/javascript" src="../js/introduction.js"></script>
+    <script type="text/javascript" src="../js/test.js"></script>
+</body>
+</html>
